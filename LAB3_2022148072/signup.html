@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<main>
+    <title>회원가입 | 지윤상점</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</main>
+<body>
+    <div class="outline">
+        <div class = "header">
+            <b1>안녕하세요!</b1><br/>
+            <b2><cb>지윤 상점</cb>에 오신 것을 환영합니다.</b2><br/>
+            이미 계정이 있으시다면?
+            <button class="btn1">
+            <a href="login.html">로그인</a>
+            </button>
+        </div>
+        <form method="post">
+            <p><b3>회원가입</b3></p>
+            <div class="input_content">
+                <p>
+                    <label>닉네임<br/><input name="nickname" type="text" autocomplete="on" placeholder="2자 이상" required autofocus /></label>
+                    <br/>
+                    <label>학년<br/><input name="grade" type="number" min="1" step="1" /></label>
+                    <br/>
+                    <label>생년월일<br/><input name="birth" type="date"/></label>
+                    <br/>
+                    <label>비밀번호<br/><input name="password" type="password" placeholder="영문 및 숫자 8자 이상" autocomplete="off" required /></label>
+                    <br/>
+                    <label>비밀번호 확인<br/><input name="password" type="password" autocomplete="off" required /></label>
+                    <br/>
+                    <label>이메일<br/><input name="email" type="email" required /></label>
+                    <br/> 이메일 수신:
+                    <input type="radio" name="emailrecieve" value="agree" />동의
+                    <input type="radio" name="emailrecieve" value="disagree" />거부
+                </p>
+            </div>
+            <p>
+                회원가입을 위한 정보 수집에 동의하십니까? <input type="checkbox" name="infocollect" value="agree" />
+            </p>
+            <p>
+                <input type="submit" value="회원가입" />
+                <input type="reset" value="취소" />
+            </p>
+        </form>
+    </div>
+</body>
