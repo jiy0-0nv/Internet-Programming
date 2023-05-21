@@ -1,0 +1,110 @@
+{
+    "novel":
+    [
+        {
+            "title":"불편한 편의점",
+            "author":"김호연",
+            "image": "소설01.jpg",
+            "price": 14000
+        },
+        {
+            "title":"하얼빈",
+            "author":"김훈",
+            "image": "소설02.jpg",
+            "price": 16000
+        },
+        {
+            "title":"작별인사",
+            "author":"김영하",
+            "image": "소설03.jpg",
+            "price": 14000
+        },
+        {
+            "title":"달러구트 꿈 백화점",
+            "author":"이미예",
+            "image": "소설04.jpg",
+            "price": 13800
+        }
+    ],
+   "assay":
+   [
+        {
+            "title":"기분을 관리하면 인생이 관리된다",
+            "author":"김다슬",
+            "image": "에세이01.jpg",
+            "price": 17600
+        },
+        {
+            "title":"나는 당신이 행복했으면 좋겠습니다",
+            "author":"박찬위",
+            "image": "에세이02.jpg",
+            "price": 13800
+        },
+        {
+            "title":"나에게 고맙다",
+            "author":"전승환",
+            "image": "에세이03.jpg",
+            "price": 16000
+        },
+        {
+            "title":"잘될 수밖에 없는 너에게",
+            "author":"최서영",
+            "image": "에세이04.jpg",
+            "price": 16000
+        }
+   ],
+   "poem":
+   [ 
+        {
+            "title":"꽃을 보듯 너를 본다",
+            "author":"나태주",
+            "image": "시01.jpg",
+            "price": 11000
+        },
+        {
+            "title":"너무 잘하려고 애쓰지 마라",
+            "author":"나태주",
+            "image": "시02.jpg",
+            "price": 14000
+        },
+        {
+            "title":"꽃샘바람에 흔들린다면 너는 꽃",
+            "author":"류서화",
+            "image": "시03.jpg",
+            "price": 13500
+        },
+        {
+            "title":"마음챙김의 시",
+            "author":"류시화",
+            "image": "시04.jpg",
+            "price": 13000
+        }
+   ],
+   "science":
+   [
+    {
+        "title":"why fish don't exist",
+        "author":"lulu miller",
+        "image": "과학01.jpg",
+        "price": 17000
+    },
+    {
+        "title":"cosmos",
+        "author":"carl sagan",
+        "image": "과학02.jpg",
+        "price": 19900
+    },
+    {
+        "title":"the selfish gene",
+        "author":"richard dawkins",
+        "image": "과학03.jpg",
+        "price": 20000
+    },
+    {
+        "title":"survival of the friendliest",
+        "author":"brian hare",
+        "image": "과학04.jpg",
+        "price": 22000
+    }
+   ]
+}

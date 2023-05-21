@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: 'GangwonEduPowerExtraBoldA', sans-serif;
+    text-align: center;
+}
+cb{color:rgb(235, 129, 164)}
+b1{
+    font-size:250%;
+    text-shadow: -2px 0 rgb(255, 222, 230), 0 2px rgb(255, 222, 230), 2px 0 rgb(255, 222, 230), 0 -2px rgb(255, 222, 230);
+}
+b2{font-size:150%;}
+b3{
+    font-family:'GangwonEduPowerExtraBoldA', sans-serif;
+    font-size:200%;
+    line-height: 100%;
+}
+b4{font-size: 70%;}
+b5{
+    font-family: 'Dovemayo_gothic';
+    font-size: 70%;
+}
+.st{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+p{
+    font-family: 'Cafe24Ssurround', 'san-serif';
+    text-align: center;
+}
+
+div{
+    font-family: 'Dovemayo_gothic', 'san-serif';
+    text-align: center;
+}
+.header{
+    height: 105px;
+    font-family: 'GangwonEduPowerExtraBoldA', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 200%;
+    background-color: rgb(255, 222, 230);
+}
+.header2{
+    height: 80px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'GangwonEduPowerExtraBoldA', sans-serif;
+    margin-top: 50px;
+    line-height: 200%;
+    background-color: rgb(255, 222, 230);
+}
+.navigator{
+    height: 15px; width: 70px; padding: 5px;
+    font-family: 'GangwonEduPowerExtraBoldA', sans-serif;
+    align-items: center;
+    background: rgb(255, 222, 230);
+    border: 1px solid rgb(255, 222, 230);
+}
+.navigator:hover{
+    background-color: rgb(58, 79, 122);
+}
+.navigator:hover a{
+    color: rgb(255, 222, 230);
+}
+
+.input_content{
+    width: 280px;
+    height: 330px;
+    background-color:rgb(255, 198, 211);
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 20px;
+    line-height: 170%;
+    font-size: 85%;
+}
+.input_content2{
+    width: 280px;
+    height: 130px;
+    background-color:rgb(255, 198, 211);
+    margin: auto;
+    padding: 10px 10px;
+    border-radius: 20px;
+    line-height: 170%;
+    font-size: 85%;
+}
+.outline{
+    border: 2px dashed;
+    border-color: rgb(255, 222, 230);
+    border-radius: 10px;
+}
+
+body{
+    background-color:rgb(58, 79, 122);
+    position: relative;
+}
+
+.btn1{
+    border: 1px solid rgb(58, 79, 122);
+    background-color: rgb(255, 222, 230);
+    font-family: 'Dovemayo_gothic';
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: rgb(58, 79, 122);
+}
+
+a{
+    color: rgb(58, 79, 122);
+}
+a:hover{
+    color: rgb(255, 222, 230);
+}
+
+input{
+    width: 150px;
+    height: 17px;
+    font-size: smaller;
+    font-family: 'Dovemayo_gothic', 'san-serif';
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+input[type=radio]{
+    width: 12px;
+    vertical-align: -5px;
+}
+input[type=checkbox]{
+    width: 13px;
+    vertical-align: -5px;
+}
+input[type=submit]{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(255, 198, 211);
+    background-color: rgb(58, 79, 122);
+    color: rgb(255, 198, 211);
+    border-radius: 5px;
+    font-family: 'Cafe24Ssurround', 'san-serif';
+}
+input:hover[type=submit]{
+    background-color: rgb(255, 198, 211);
+    color: rgb(58, 79, 122);
+}
+input[type=reset]{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(255, 198, 211);
+    background-color: rgb(58, 79, 122);
+    color: rgb(255, 198, 211);
+    border-radius: 5px;
+    font-family: 'Cafe24Ssurround', 'san-serif';
+}
+input:hover[type=reset]{
+    background-color: rgb(255, 198, 211);
+    color: rgb(58, 79, 122);
+}
+
+.anim{
+    position: relative;
+    animation-name: sliding;
+    animation-duration: 2s;
+}
+@keyframes sliding
+{
+   0%   {left: 100%;}
+   100% {left: 0%;}
+}
+
+.appear{
+    position: absolute; opacity: 0;
+    text-align: left;
+    left: 10px; top: 50px;
+}
+.item{
+    width:160px; transition: transform 2s;
+    display: inline-flex;
+    margin-right: 130px; margin-bottom: 10px;
+}
+.item:hover{ 
+    transform: scale(1.1, 1.1);
+}
+.item:hover img{filter: brightness(0.5);}
+.item:hover .appear{ 
+    color: white;
+    opacity: 1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1020px;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1020px;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1020px;
+}
+
+@media (max-width: 480px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    b2{ font-size: 100% ;}
+    .header2{ height: 60px; }
+    .navigator{
+        height: 12px; width: 60px; padding: 4px; font-size: 90%;
+    }
+    .st{
+        position: static;
+    }
+    .flex-container3{
+        flex-direction: column;
+    }
+  }
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    .st{
+        position: static;
+    }
+    .flex-container3{
+        flex-direction: column;
+    }
+  }
+
+.describe{
+    width: 400px;
+    font-size: 70%;
+    column-count: 2;
+    column-gap: 20px;
+    column-rule-color: black;
+    column-rule-style: solid;
+    border-width: 3px;
+    column-rule-width: 1px;
+}
+
+.filter{
+    color: rgb(255, 222, 230);
+}
+
+select{
+    border: 1px solid rgb(58, 79, 122);
+    background-color: rgb(255, 222, 230);
+    font-family: 'Dovemayo_gothic';
+    border-radius: 5px;
+}
