@@ -1,0 +1,14 @@
+[
+    {
+        "product_id": "1",
+        "comment": "i like it"
+    },
+    {
+        "product_id": "2",
+        "comment": "not bad"
+    },
+    {
+        "product_id":"3",
+        "comment": "Interesting"
+    }
+]

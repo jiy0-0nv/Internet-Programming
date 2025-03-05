@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<main>
+    <title>지윤상점</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</main>
+
+<body>
+    <script>
+        function Form(event) {
+            
+            form = event.target;
+            event.preventDefault();
+  		
+            form.action = "http://localhost:3000/?search="
+              			+form.search.value+"&category="+form.category.value;
+            form.submit(); 
+        }
+        window.onload = function() { 
+            var form = document.getElementById("form");
+            form.onsubmit = Form;
+        }
+    
+    </script>
+
+
+    <div class="container">
+        <div class="flex-container2">
+            <div class = "header2">
+                <b1 class="anim">안녕하세요!</b1><br/>
+                <b2 style="margin-left: 10px;">
+                    <a href="http://localhost:3000/" style="text-decoration: none;"><cb>지윤 상점</cb></a>에 오신 것을 환영합니다.</b2><br>
+            </div>
+
+            <div class="flex-container">
+                <div class="navigator">
+                    <a href="http://localhost:3000/login.html">로그인</a>
+                </div>
+                <div class="navigator">
+                    <a href="http://localhost:3000/signup.html">회원가입</a>
+                </div>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 40px; margin-bottom: 10px; border-top: 2px solid rgb(255, 222, 230); padding-top: 20px;">
+            <b3>BOOKSTORE</b3>
+        </p>
+        <form class="filter" id="form" action="/">
+            <label>
+                키워드:&nbsp
+                <input type="text" name="search" id="search" style="width: 150px; background-color: rgb(255, 222, 230);">
+            </label>
+            <label>&nbsp&nbsp&nbsp카테고리:
+                <select name="category" id="selected_category">
+                    <option value="" selected>전체</option>
+                    <option value="novel">소설</option>
+                    <option value="essay">에세이</option>
+                    <option value="science">과학</option>
+                </select>
+            </label>
+            <input type="submit" value="검색하기" style="width: 60px; height: 20px; font-family: Dovemayo_gothic;"/>
+        </form>        
